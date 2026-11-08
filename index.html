@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Retro Cyber Snake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-wrap">
+    <div class="game-header">
+      <div>
+        <div class="game-title">Retro Cyber Snake</div>
+        <div class="game-sub">Eat glowing data orbs, grow longer, don't crash</div>
+      </div>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+    
+    <div id="gameOverlay" class="overlay">
+      <h2 id="overlayTitle"></h2>
+      <p id="overlaySub"></p>
+      <div id="overlayCoupon" class="coupon-box"></div>
+      <button id="btnRestart" class="btn-play">Play Again</button>
+    </div>
+
+    <div class="touch-bar">
+      <button id="btnLeft" class="touch-btn">◀ Left</button>
+      <button id="btnAction" class="touch-btn">⚡ Action</button>
+      <button id="btnRight" class="touch-btn">Right ▶</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
